@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header container-fluid">
+        <div class="row">
+            <div class="hText1 col-1"><p><</p></div>
+            <div class="col-1"><img class="logo" src="assets/logo 1.png"></img></div>
+            <div class="hText2 col-10"><p>ROCK PAPER SCISSORS</p></div>
+        </div>
+    </header>
+    <div class="player container-fluid row">
+        <div class="player1 col"><p>PLAYER 1</p></div>
+        <div class="com col"><p>COM</p></div>
+    </div>
+    <div class="rock container-fluid row">
+        <div class="rock1 col-6 card" id="r"><img class="batu" src="assets/batu.png" alt=""></img></div>
+        <div class="rock2 col-6 card"><img class="batu" src="assets/batu.png"></img></div>
+    </div>
+    <div class="paper container-fluid row">
+        <div class="paper1 col-5 card" id="p"><img class="kertas" src="assets/kertas.png" alt=""></img></div>
+        <div class="vs col-1 card" id="vs">VS</div>
+        <div class="result1 col-1 card">Player 1 Win</div>
+        <div class="result2 col-1 card">Com Win</div>
+        <div class="result3 col-1 card">Draw</div>
+        <div class="paper2 col-5 card"><img class="kertas" src="assets/kertas.png"></img></div>
+    </div>
+    <div class="scissors container-fluid row">
+        <div class="scissors1 col-6 card" id="s"><img class="gunting" src="assets/gunting.png" alt=""></img></div>
+        <div class="scissors2 col-6 card"><img class="gunting" src="assets/gunting.png"></img></div>
+    </div>
+    <div><img class="refresh" id="reload" src="assets/refresh.png"></div>
+
+    <script src="app/game.js" charset="utf-8"></script>
+</body>
+</html>

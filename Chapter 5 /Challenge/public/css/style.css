@@ -1,0 +1,163 @@
+body{
+    background-color: #9C835F;
+}
+.header{
+    padding-top: 1rem;
+}
+.hText1{
+    color: #724C21;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+}
+.logo{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.hText2{
+    color: #F9B23D;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+.player{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+.player1{
+    padding-left: 25rem;
+}
+.com{
+    padding-left: 4rem;
+}
+.rock{
+    margin-top: 3rem;
+}
+.batu{
+    height: 4rem;
+    width: 5rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+.rock1{
+    margin-left: 25rem;
+    height: 7rem;
+    width: 8rem;
+    background-color: #9C835F;
+}
+.card{
+    border: 0px;
+}
+.rock2{
+    margin-left: 22rem;
+    height: 7rem;
+    width: 8rem;
+    background-color: #9C835F;
+}
+.paper{
+    margin-top: 5rem;
+}
+.kertas{
+    height: 5rem;
+    width: 4rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+.paper1{
+    margin-left: 26rem;
+    height: 7rem;
+    width: 8rem;
+    background-color: #9C835F;
+}
+.paper2{
+    margin-left: 8rem;
+    height: 7rem;
+    width: 8rem;
+    background-color: #9C835F;
+}
+.vs{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #BD0000;
+    margin-left: 7rem;
+    background-color: #9C835F;
+}
+.result1{
+    width: 8rem;
+    height: 7rem;
+    background-color: rgb(76, 150, 84, 1);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 2.5rem;
+    transform: rotate(-28.87deg);
+    display: none;
+    margin-left: 7rem;
+}
+.result2{
+    width: 8rem;
+    height: 7rem;
+    background-color: rgb(76, 150, 84, 1);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 2.5rem;
+    transform: rotate(-28.87deg);
+    display: none;
+    margin-left: 7rem;
+}
+.result3{
+    width: 8rem;
+    height: 7rem;
+    background-color: rgb(3, 91, 12, 1);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 2.5rem;
+    transform: rotate(-28.87deg);
+    display: none;
+    margin-left: 7rem;
+}
+.scissors{
+    margin-top: 5rem;
+}
+.gunting{
+    height: 5rem;
+    width: 4rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+.scissors1{
+    margin-left: 26rem;
+    height: 7rem;
+    width: 8rem;
+    background-color: #9C835F;
+}
+.scissors2{
+    margin-left: 22rem;
+    height: 7rem;
+    width: 8rem;
+    background-color: #9C835F;
+}
+.refresh{
+    height: 4rem;
+    width: auto;
+    margin-left: 43rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
