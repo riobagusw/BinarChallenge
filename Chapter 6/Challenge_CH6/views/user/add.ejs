@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add user_game Data</title>
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="masthead">
+    <h1>Add user_game Data</h1>
+    <nav>
+      <%- include('../nav/navbar') %>
+      <a href="/user_game">Show All Data</a>
+    </nav>
+  </div>
+  <%
+  if(err !== null) {
+  %>
+  <div class="error">
+    <%=err%>
+  </div>
+  <%
+  }
+  %>
+  <div class="form-center">
+    <form action="/user_game/add" method="post">
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" value="<%=user_game === null ? '' : user_game.firstName%>">
+      <label for="lastName">Last Name</label>
+      <input type="text" name="lastName" value="<%=user_game === null ? '' : user_game.lastName%>">
+      <label for="email">Email</label>
+      <input type="text" name="email" value="<%=user_game === null ? '' : user_game.email%>">
+      <input type="submit" value="Add user_game">
+    </form>
+  </div>
+</body>
+</html>

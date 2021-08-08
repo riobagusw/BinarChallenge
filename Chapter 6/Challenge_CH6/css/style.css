@@ -1,0 +1,63 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  display: inline-block;
+  font-weight: 700;
+  color: rgb(76, 139, 175);;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form-center, .error {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.error {
+  padding: 20px;
+  background-color: rgb(189, 152, 152);
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.masthead {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+input[type=text],input[type=number], select {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left
+}
+
+label {
+  text-align: left;
+}
+
+
+input[type=submit] {
+  width: 30%;
+  background-color: rgb(76, 139, 175);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+}

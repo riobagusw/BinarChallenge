@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>user_game Data</title>
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="masthead">
+    <h1>user_game Data</h1>
+    <%- include('../nav/navbar') %>
+    <nav>
+      <a href="/user_game/add">Add Student</a>
+    </nav>
+  </div>
+  <div class="form-center">
+    <table>
+      <tr>
+        <th>Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Action</th>
+        <th>Option</th>
+      </tr>  
+      <%if(user_game !== null) {
+        user_game.forEach(td => {%>
+        <tr>
+          <td><%=td.id%></td>
+          <td><%=td.firstName%></td>
+          <td><%=td.lastName%></td>
+          <td><%=td.email%></td>
+          <td>
+            <a href="/user_game/<%=td.id%>/add-subject">Add user_game</a>
+          </td>
+          <td>
+            <a href="/user_game/edit/<%=td.id%>">Edit</a> | 
+            <a href="/user_game/delete/<%=td.id%>" 
+              onclick="return confirm('delete this user_game?')">Delete</a>
+          </td>
+        </tr>
+      <%})}%>
+    <table>
+  </div>
+
+</body>
+</html>
